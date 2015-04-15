@@ -1,0 +1,332 @@
+html,body, nav, section, div, img, ul {
+	margin: auto 0;
+	padding: 0;
+	font-family: "Ariel", sans-serif;
+}
+
+.content {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+/* NAVIGATION */
+
+.title {
+	margin-top: 0px;
+	float: left;
+	list-style-type: none;
+	padding-top: 10px;
+	font-size: 30px;
+}
+
+#nav-links-list {
+	float: right;
+	margin-top: 0;
+}
+
+#nav-links-list>li{
+	list-style-type: none;
+	float: left;
+	padding-left: 68px;
+	padding-top: 65px;
+	padding-bottom: 20px;
+	font-size: 20px;
+}
+
+/* MAIN IMAGE */
+
+.main-header {
+	text-align: right;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.main-image {
+	position: right;
+}
+
+/* SECTION 1 */
+
+#numero-uno {
+	background-color: #f0d04e;
+	height: 560px;
+}
+
+#info-grid {
+	padding-top: 30px;
+	height: 500px;
+	width: 720px;
+}
+
+.info-text {
+	height: 200px;
+	width: 220px;
+	float: left;
+	padding-left: 20px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	text-align: center;
+}
+
+.info-text>img {
+	padding-bottom: 20px;
+}
+
+/*SECTION 2*/
+
+#numero-dos {
+	height: 700px;
+}
+
+#left-side-text {
+	max-width: 235px;
+	float: left;
+	list-style-type: none;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 60px;
+
+}
+
+#left-side-big {
+	font-family: "Josefin Sans", sans-serif;
+	font-weight: 700;
+	font-size: 38px;
+	padding-bottom: 20px;
+}
+
+#left-side-medium {
+	font-family: "Josefin Sans", sans-serif;
+	font-weight: 400;
+	font-size: 24px;
+	padding-bottom: 30px;
+}
+
+#left-side-small {
+	font-family: "Josefin Sans", sans-serif;
+	font-weight: 300;
+	font-size: 12px;
+}
+
+#left-side-text>button{
+	width: 100px;
+	height: 40px;
+	background-color: f7941d;
+	border: none;
+	font-size: 16px;
+	margin-top: 80px;
+	margin-bottom: 200px;
+}
+
+.image-grid {
+	float: left;
+	width: 235px;
+	padding-right: 10px;
+	list-style-type: none;
+	padding-top: 60px;
+}
+
+
+#thumb-image1 {
+	background-image: url("../imgs/Flower_1.png");
+	width: 235px;
+	height: 235px;
+	background-position: -60px -20px;
+	background-repeat: no-repeat;
+	margin-bottom: 10px;
+}
+
+#thumb-image2 {
+	background-image: url("../imgs/Flower_2.png");
+	width: 235px;
+	height: 235px;
+	background-position: -60px -20px;
+	background-repeat: no-repeat;
+	margin-bottom: 10px;
+}
+
+#thumb-image3 {
+	background-image: url("../imgs/Flower_3.png");
+	width: 235px;
+	height: 235px;
+	background-position: -120px -60px;
+	background-repeat: no-repeat;
+	margin-bottom: 10px;
+}
+
+#thumb-image4 {
+	background-image: url("../imgs/Flower_4.png");
+	width: 235px;
+	height: 235px;
+	background-position: -60px -20px;
+	background-repeat: no-repeat;
+	margin-bottom: 10px;
+}
+
+#thumb-image5 {
+	background-image: url("../imgs/Flower_5.png");
+	width: 235px;
+	height: 235px;
+	background-position: -120px -120px;
+	background-repeat: no-repeat;
+	margin-bottom: 10px;
+}
+
+#thumb-image6 {
+	background-image: url("../imgs/Flower_6.png");
+	width: 235px;
+	height: 235px;
+	background-position: -200px -425px;
+	background-repeat: no-repeat;
+	margin-bottom: 10px;
+}
+
+#caption-title {
+	font-size: 18px;
+	font-weight: 700;
+}
+
+#caption>p{
+	font-size: 18px;
+	font-weight: 300;
+}
+
+/*SECTION 3*/
+
+#numero-tres{
+	background-color: #f7941d;
+	height: 245px;
+}
+
+.logos>li{
+	margin: 0 auto;
+	padding-top: 90px;
+	list-style-type: none;
+	float: left;
+	width: 120px;
+	height: 50px;
+	padding-left: 120px;
+	padding-top: 100px;
+	text-align: center;
+}
+
+.logo-group{
+	margin-right: 93px;
+	margin-left: 93px;
+	text-align: center;
+}
+
+.logo-group>li{
+	float: left;
+	list-style-type: none;
+	text-align: center;
+	/* padding-bottom: 100px; */
+	padding-right: 50px;
+	padding-left: 50px;
+	padding-top: 40px;
+}
+
+.logo_one{
+	font-family: "PT Sans", sans-serif;
+	font-size: 48px;
+	font-style: italic;
+	width: 100px;
+	height: 100px;
+}
+
+.logo_two{
+	font-family: "Lucida Sans Typewriter", sans-serif;
+	font-size: 48px;
+	font-style: bold; 
+	width: 100px;
+	height: 100px;
+
+}
+
+.logo_three{
+	font-family: "Gill Sans MT", sans-serif ;
+	font-size: 48px;
+	width: 100px;
+	height: 100px;
+}
+
+.logo_four{
+	font-family: "PT Serif", sans-serif;
+	font-size: 48px;
+	width: 100px;
+	height: 100px;
+}
+
+/*SECTION 4*/
+
+#numero-quatro{
+	background-color: #a3d39c;
+	height: 300px;
+	text-align: center;
+}
+
+ .question{
+	text-align: center;
+	max-width: 500px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.question>li{
+	list-style-type: none;
+	text-align: center;
+}
+
+#main_question {
+	font-family: "Ariel", sans-serif;
+	font-weight: 400;
+	font-size: 36px;
+	/* padding-bottom: 5px; */
+}
+
+#question_text {
+	font-family: "Ariel", sans-serif;
+	font-weight: 300;
+	font-size: 18px;
+}
+
+.question>button{
+	width: 100px;
+	height: 40px;
+	background-color: #f7941d;
+	border: none;
+	font-size: 16px;
+	/* margin-top: 80px;
+	margin-bottom: 200px; */
+}
+
+/*FOOTER*/
+
+.footer{
+	height: 50px;
+}
+
+#copyright{
+	float: left;
+	padding-left: 30px;
+	list-style-type: none;
+	font-size: 14px;
+	font-weight: 500;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+#name{
+	float: right;
+	padding-right: 30px;
+	list-style-type: none;
+	font-size: 14px;
+	font-weight: 500;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+/*CLEARFIX*/
+.clearfix {
+	overflow: auto;
+}
